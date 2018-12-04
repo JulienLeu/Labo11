@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="graphe.c" />
+    <ClCompile Include="Labo11.c" />
+    <ClCompile Include="outils_saisie.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphe.h" />
+    <ClInclude Include="outils_saisie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
